@@ -23,7 +23,7 @@ function adicionaLinha(){
 
     let linha = '<tr>'
     linha += `<td> ${inputNomeContato.value} </td>`;
-    linha += `<td> ${inputNumeroContato.value} </td>`;
+    linha += `<td> +55 ${inputNumeroContato.value} </td>`;
     linha += `</tr>`;
 
     linhas += linha;
